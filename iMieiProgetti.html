@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stile.css">
-</head>
-<body>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    
-    <h2><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-person-vcard" viewBox="0 0 16 16">
-  <path d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4m4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5M9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8m1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5"/>
-  <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.96q.04-.245.04-.5C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 1 1 12z"/>
-</svg>I miei progetti</h2>
-  <div class="container mt-3">
-    <div class="card">
-    <div class="card-body">
-  <p>nel corso di questi anni scolastici, con alcuni <br>
-    miei compagni di scuola, ho realizzato dei progetti</p>
-  <ul>
-    <li>Videogioco</li>
-      <p>Creazione di un videogioco in linguaggio C# a gruppi grazie alla materia di informatica, il videogioco prende spunto dal gioco finale dalla nota serie TV 'Avanti un altro'.<br> 
-          il gioco creato dal mio gruppo consiste nel rispondere ad una serie di domande in modo opposto ovvero rispondere in modo errato alla domanda. nel gioco vengono usati dei punti assegnati alle persone che rispondono a più domande date dal gioco in modo correttamente, vengono mostrati i migliori punteggi.</p>
-    <li>Software</li>
-      <p>Realizzazione di un software a coppie con tematica a scelta, il mio software è basato su una squadra di basket inventata, nel sito si potrà vedere la storia della squadra, i componenti dello staff, i risultati di alcune partite; ciò se si è un visitatore normale mentre sei un admin della squadra potrai avere l'accesso ad una altra parte del sito che permette di modificare le squadre, aggiungere squadre e di modificare le partite giocate.</p>
-    <li>Piattaforma</li>
-      <p>Modernizzazione del sito web di 3L Orienta, che servirà ad aiutare i ragazzi provenienti dalle scuole medie a scegliere la scuola superiore più adatta per il loro futuro.</p>
-  </ul>
-  </div>
-  </div>
-    </form>
 
-  <button onclick="window.location.href='pcto.html'">Vai al mio PCTO</button>
-    <div class="container mt-3">
-            <button onclick="window.location.href='index.html'">⬅ Torna alla Home</button>
+    <title>Progetti</title>
+
+    <link rel="stylesheet" href="stile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container py-4">
+
+    <h2 class="text-center mb-4">📁 I miei progetti</h2>
+
+    <div class="card shadow-sm mb-3">
+        <div class="card-body">
+            <h5>🎮 Videogioco</h5>
+            <p>Gioco in C# sviluppato a scuola.</p>
         </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </div>
+
+    <div class="card shadow-sm mb-3">
+        <div class="card-body">
+            <h5>💻 Software</h5>
+            <p>Gestione squadre di basket con database.</p>
+        </div>
+    </div>
+
+    <div class="card shadow-sm mb-3">
+        <div class="card-body">
+            <h5>🌐 Piattaforma</h5>
+            <p>Sito 3L Orienta per orientamento scolastico.</p>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <button class="btn btn-dark" onclick="window.location.href='index.html'">
+            ⬅ Torna alla Home
+        </button>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
